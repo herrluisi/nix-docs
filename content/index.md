@@ -11,5 +11,3 @@ The goal of this documentation is that I know in a few years (or weeks because o
 
 If you have any questions or suggestions, don't hesitate to reach out (you find contact options on my GitHub page).
 
-
-
