@@ -1,17 +1,19 @@
-# Quartz v4
+# Nix Docs with Quartz 4
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+## Porpuse
+This documentation has the porpuse on structure all information for myself so I can see in the future what I did a few years ago (or a few weeks because I have a goldfish brain).
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+Feel free to copy the structure and the idea of this repo. 
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+## Setup Documentation
+If you are on NixOS you can just clone this repo and use the development environment (defined in the flake.nix) for development.
+If you're not using NixOS then you can figure out by yourself you to proper start this thing :D One Tip: You need nodejs >= 22 :)
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+```bash
+git clone https://github.com/herrluisi/nix-docs
+cd nix-docs
+nix develop
+npm i
+npx quartz build --serve
+```
 
-## Sponsors
-
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
