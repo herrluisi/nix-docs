@@ -2,9 +2,6 @@
 title: Documentation of all my Nix related projects.
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
-
 At the beginning of 2025 my NixOS journey starts. Since then a lot of lines of code were written and now nearly 100% of my setup (incl. my main editor neovim) is declarative.
 
 The goal of this documentation is that I know in a few years (or weeks because of my goldfish brain) what I did here :D
