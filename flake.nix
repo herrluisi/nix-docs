@@ -14,6 +14,7 @@
         devShells.default = pkgs.mkShell {
           packages = with pkgs; [
             nodejs_22
+            angular-language-server  # needed because my nixvim env gives an error that it can't start this lsp... Idk...
           ];
           shellHook = ''
             echo "Quartz dev env ready – node $(node --version)"
