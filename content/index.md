@@ -2,10 +2,7 @@
 title: NixDocs
 ---
 
-At the beginning of 2025 my NixOS journey starts. Since then a lot of lines of code were written and now nearly 100% of my setup (incl. my main editor neovim) is declarative.
-
-The goal of this documentation is that I know in a few years (or weeks because of my goldfish brain) what I did here :D
-
-If you have any questions or suggestions, don't hesitate to reach out (you find contact options on my GitHub page).
-
-To start your journey through this documentation you can find the start in the [[./introduction.md | introduction]] Chapter.
+At the beginning of 2025, I fell down the NixOS rabbit hole—and I’ve been happily stuck there ever since. A lot of lines of code later, nearly my entire setup (yes, even Neovim) is now fully declarative.
+This documentation exists mainly for future me—whether that’s in a few years or in two weeks when I’ve already forgotten everything. Goldfish brain strikes again.
+If you stumble across this and have questions, ideas, or “why would you do it like that?” moments, feel free to reach out. You’ll find ways to contact me on my GitHub page (you can find the GitHub link in the footer).
+Ready to explore? Start with the [[./introduction.md | introduction]] and see where it takes you.
