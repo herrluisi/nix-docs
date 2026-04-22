@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "NixDocs",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -29,28 +29,28 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#fcf7f2",
+          lightgray: "#ece3d8",
+          gray: "#b9a999",
+          darkgray: "#5c4b3f",
+          dark: "#2f241d",
+          secondary: "#b85c1e",      // burnt orange: links, buttons
+          tertiary: "#d9925b",       // softer amber accent
+          highlight: "rgba(184, 92, 30, 0.12)",
+          textHighlight: "#ffd08988",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#181311",
+          lightgray: "#2b221d",
+          gray: "#8f7a6b",
+          darkgray: "#dbc9bc",
+          dark: "#f3ece6",
+          secondary: "#d97732",      // warm dark orange
+          tertiary: "#e8a56f",       // lighter amber accent
+          highlight: "rgba(217, 119, 50, 0.16)",
+          textHighlight: "#ffb86b66",
         },
-      },
+      }
     },
   },
   plugins: {
