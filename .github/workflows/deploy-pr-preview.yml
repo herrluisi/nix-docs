@@ -1,0 +1,49 @@
+name: Deploy PR previews to GitHub Pages
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - closed
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: preview-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  deploy-preview:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        if: github.event.action != 'closed'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        if: github.event.action != 'closed'
+        run: npm ci
+
+      - name: Build Quartz
+        if: github.event.action != 'closed'
+        run: npx quartz build
+
+      - name: Deploy preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: ./public
+          preview-branch: gh-pages
+          umbrella-dir: pr-preview
