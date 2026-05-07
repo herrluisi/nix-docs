@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>NixDocs</title>
+      <link>https://herrluisi.github.io/nix-docs</link>
+      <description>Last 10 notes on NixDocs</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>NixDocs</title>
+    <link>https://herrluisi.github.io/nix-docs/</link>
+    <guid>https://herrluisi.github.io/nix-docs/</guid>
+    <description><![CDATA[ At the beginning of 2025, I fell down the NixOS rabbit hole—and I’ve been happily stuck there ever since. ]]></description>
+    <pubDate>Wed, 22 Apr 2026 14:22:50 GMT</pubDate>
+  </item><item>
+    <title>Introduction</title>
+    <link>https://herrluisi.github.io/nix-docs/introduction</link>
+    <guid>https://herrluisi.github.io/nix-docs/introduction</guid>
+    <description><![CDATA[ This documentation is structured as following:. ]]></description>
+    <pubDate>Wed, 22 Apr 2026 07:52:13 GMT</pubDate>
+  </item><item>
+    <title>Hosts</title>
+    <link>https://herrluisi.github.io/nix-docs/nixos/hosts</link>
+    <guid>https://herrluisi.github.io/nix-docs/nixos/hosts</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Wed, 22 Apr 2026 07:52:13 GMT</pubDate>
+  </item><item>
+    <title>NixOS</title>
+    <link>https://herrluisi.github.io/nix-docs/nixos/</link>
+    <guid>https://herrluisi.github.io/nix-docs/nixos/</guid>
+    <description><![CDATA[ This Folder is dedicated to list all NixOS relevant documentation. ]]></description>
+    <pubDate>Fri, 17 Apr 2026 12:58:17 GMT</pubDate>
+  </item><item>
+    <title>NixVim</title>
+    <link>https://herrluisi.github.io/nix-docs/nixvim/</link>
+    <guid>https://herrluisi.github.io/nix-docs/nixvim/</guid>
+    <description><![CDATA[ This folder is dedicated to list all NixVim relevant documentation. ]]></description>
+    <pubDate>Fri, 17 Apr 2026 12:58:17 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
