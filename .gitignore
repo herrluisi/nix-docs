@@ -9,6 +9,7 @@ package-lock.json
 # Quartz build output
 public/
 .quartz-cache/
+.obsidian/
 
 # Environment / secrets
 .env
